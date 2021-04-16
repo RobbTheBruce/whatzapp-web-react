@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-import LeftBar from "./left-bar";
-import RightContent from "./right-content";
+import LeftBar from "../left-bar/left-bar";
+import RightContent from "../right-content/right-content";
 
 const Background = styled.div`
     background-color: #dddbd1;
