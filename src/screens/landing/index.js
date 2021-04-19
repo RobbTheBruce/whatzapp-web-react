@@ -31,6 +31,12 @@ const Boxdiv = styled.div`
     background-color: white;
     box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
     display: flex;
+
+    @media screen and (max-width: 1441px) {
+        width: 100%;
+        height: 100%;
+        box-shadow: none;
+    }
 `;
 
 export const Landing = () => {

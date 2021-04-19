@@ -37,6 +37,11 @@ const ImageConnection = styled.div`
     background-image: url(/images/intro-connection-light.jpg);
     width: 356px;
     height: 355px;
+
+    @media screen and (max-height: 740px) {
+        width: 250px;
+        height: 250px;
+    }
 `;
 
 const Text1 = styled.h3`
