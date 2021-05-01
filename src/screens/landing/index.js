@@ -1,3 +1,5 @@
+import React, { useEffect } from 'react';
+
 import styled from "styled-components";
 
 import LeftBar from "../left-bar/left-bar";
@@ -40,6 +42,9 @@ const Boxdiv = styled.div`
 `;
 
 export const Landing = () => {
+    useEffect(() => {
+        document.title = 'WhatsApp'
+    });
     return (
         <Background>
             <Boxdiv>
