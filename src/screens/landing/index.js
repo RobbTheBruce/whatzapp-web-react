@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 
 import styled from "styled-components";
 
-import LeftBar from "../left-bar/left-bar";
+import LeftBar from "../left-bar/leftBar";
 import RightContent from "../right-content/right-content";
 
 const Background = styled.div`

@@ -4,8 +4,8 @@ export const LeftBarContext = createContext();
 
 export default function LeftBarProvider({ children }) {
     const [leftBarContent, setLeftBarContent] = useState({
-        open: false,
-        profile: ''
+        open: true,
+        controller: 'settings'
     });
 
     return (

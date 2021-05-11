@@ -5,6 +5,7 @@ import SecondBar from './second-bar/second-bar';
 import Friends from './friends/friends';
 import Profile from './profile/profile';
 import LeftBarProvider from './leftBarProvider';
+import Settings from './settings/settings';
 
 const LBar = styled.div`
     max-width: 420px;
@@ -24,6 +25,7 @@ export const LeftBar = () => {
                 <SecondBar></SecondBar>
                 <Friends></Friends>
                 <Profile></Profile>
+                <Settings></Settings>
             </LeftBarProvider>
         </LBar>
     )

@@ -11,10 +11,10 @@ export const FirstBar = () => {
     const menuConfig = [
         { name: 'Novo grupo', action: () => { console.log('gone.1') } },
         { name: 'Criar uma sala', action: () => { console.log('gone.2') } },
-        { name: 'Perfil', action: () => { console.log('gone.3') } },
+        { name: 'Perfil', action: () => { setLeftBarContent({ ...leftBarContent, open: !leftBarContent.open, controller: 'profile' }) } },
         { name: 'Arquivadas', action: () => { console.log('gone.4') } },
         { name: 'Favoritas', action: () => { console.log('gone.5') } },
-        { name: 'Configurações', action: () => { console.log('gone.6') } },
+        { name: 'Configurações', action: () => { setLeftBarContent({ ...leftBarContent, open: !leftBarContent.open, controller: 'settings' }) } },
         { name: 'Desconectar', action: () => { console.log('gone.7') } }
     ];
 
