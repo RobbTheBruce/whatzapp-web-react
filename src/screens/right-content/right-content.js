@@ -1,6 +1,7 @@
 import styled, { keyframes } from 'styled-components';
 import Intro from './intro/intro';
 import CFirstBar from './chat/CFirstBar';
+import CContent from './chat/CContent';
 import CLastBar from './chat/CLastBar';
 
 const RBar = styled.div`
@@ -17,13 +18,8 @@ const RBar = styled.div`
         width: 100%;
         height: 100%;
         position: absolute;
+        z-index: 0;
     }
-`;
-
-const CContent = styled.div`
-    border-left: 1px solid rgba(0,0,0,0.08);
-    height: calc(100% - 121px);
-   
 `;
 
 export const RightContent = () => {
