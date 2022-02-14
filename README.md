@@ -34,4 +34,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 Exemplo de como esta a demo Atualmente:
-![plot](./public/images/Demo.png)
+![alt text](https://github.com/RobbTheBruce/whatzapp-web-react/blob/main/public/images/Demo.png?raw=true)
