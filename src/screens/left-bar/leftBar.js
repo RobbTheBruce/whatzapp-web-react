@@ -6,6 +6,7 @@ import Friends from './friends/friends';
 import Profile from './profile/profile';
 import LeftBarProvider from './leftBarProvider';
 import Settings from './settings/settings';
+import { FriendsContextProvider } from '../../context/friendsProvider';
 
 const LBar = styled.div`
     max-width: 420px;
@@ -22,12 +23,14 @@ export const LeftBar = () => {
         <LBar>
             <LeftBarProvider>
                 <FirstBar></FirstBar>
-                <SecondBar></SecondBar>
-                <Friends></Friends>
+                <FriendsContextProvider>
+                    <SecondBar></SecondBar>
+                    <Friends></Friends>
+                </FriendsContextProvider>
                 <Profile></Profile>
                 <Settings></Settings>
             </LeftBarProvider>
-        </LBar>
+        </LBar >
     )
 };
 
